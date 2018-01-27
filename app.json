@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "exp_offline_test",
-    "description": "A very interesting project.",
+    "description": "test expokit offline",
     "slug": "offline-test",
     "privacy": "public",
     "sdkVersion": "25.0.0",
@@ -9,13 +9,22 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "splash": {
-      "image": "./assets/images/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.github.sloppycoder",
+      "supportsTablet": false,
+      "buildNumber": "1",
+      "isRemoteJSEnabled": false,
+      "loadJSInBackgroundExperimental": false,
+      "config": {
+        "usesNonExemptEncryption": false
+      },
+      "infoPlist": {
+        "EXAnalyticsDisabled": true
+      }
+    },
+    "android": {
+      "package": "com.github.sloppycoder",
+      "versionCode": 1
     }
   }
 }
