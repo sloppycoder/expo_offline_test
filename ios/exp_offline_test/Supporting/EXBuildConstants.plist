@@ -14,6 +14,6 @@
 	<key>STANDALONE_CONTEXT_TYPE</key>
 	<string>user</string>
 	<key>developmentUrl</key>
-	<string>exp5a05c8ceba714651835e01bc74187120://v7-eyw.sloppycoder.exp-offline-test.exp.direct:80</string>
+	<string>exp5a05c8ceba714651835e01bc74187120://localhost:80</string>
 </dict>
 </plist>

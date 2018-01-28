@@ -16,7 +16,6 @@
       "bundleIdentifier": "com.github.sloppycoder",
       "supportsTablet": false,
       "buildNumber": "1",
-      "isRemoteJSEnabled": false,
       "loadJSInBackgroundExperimental": false,
       "config": {
         "usesNonExemptEncryption": false
